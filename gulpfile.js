@@ -1,14 +1,13 @@
-var gulp = require('gulp')
-var gulpif = require('gulp-if')
-var postcss = require('gulp-postcss')
-var cssmin = require('gulp-cssmin')
-var rename = require('gulp-rename')
+var gulp = require('gulp'),
+    gulpif = require('gulp-if'),
+    postcss = require('gulp-postcss'),
+    cssmin = require('gulp-cssmin'),
+    rename = require('gulp-rename'),
+    gConn = require("gulp-connect"),
 
-var gConn = require("gulp-connect")
-
-var header = require('gulp-header')
-var moment = require('moment')
-var pkg = require('./package.json')
+    header = require('gulp-header'),
+    moment = require('moment'),
+    pkg = require('./package.json')
 
 var banner = ['/*!',
   ' <%= pkg.name %>',
