@@ -7,4 +7,4 @@
 
 Use this as a starting point for making your own responsive, Skeleton aware UI component. Code once, reuse reuse reuse.
 
-Read the docs in the [wiki](https://github.com/skeletonframework/skeletonframework/wiki)
+Read the docs in the [wiki](https://github.com/skeletonframework/skeletonframework/wiki/Bone-Development)
